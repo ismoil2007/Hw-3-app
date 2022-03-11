@@ -1,0 +1,56 @@
+.container{
+    margin: 0 auto;
+    width: 1000px;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+
+}
+.card1{
+    margin: 0 auto;
+    width: 25%;
+    height: 300px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.card2{
+    height: 300px;
+    margin: 0 auto;
+    width: 25%;
+    border: 1px solid black;
+    text-align: center;
+    background-color: #cecece;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.circle{
+    
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    border: 2px ;
+    border-radius: 50%;
+
+}
+
+.circle img{
+    width: 100%;
+    border-radius: 50%;
+    height: 100%;
+}
+.card2 .circle img{
+    background-color: #ffffff;
+}
+.card1 .circle img{
+    background-color: silver;
+}
